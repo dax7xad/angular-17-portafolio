@@ -12,6 +12,7 @@ import { ItemComponent } from './pages/item/item.component';
 
 // Rutas
 import { AppRoutingModule } from './app-routing.modulo';
+import { CargandoComponent } from './shared/cargando/cargando.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AppRoutingModule } from './app-routing.modulo';
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
-    ItemComponent
+    ItemComponent,
+    CargandoComponent
   ],
   imports: [
     BrowserModule,
